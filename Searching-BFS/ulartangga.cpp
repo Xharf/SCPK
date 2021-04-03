@@ -8,7 +8,7 @@ using namespace std;
 // An entry in queue used in BFS
 struct queueEntry
 {
-    int v;    // nomor vertex / cell papan
+    int v;    // nomor vertex / cell papan.
     int dist; // jarak cell ini dari source (dalam langkah dadu)
 };
 
